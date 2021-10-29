@@ -74,8 +74,8 @@ const Books = {
             this.bookForm = {};
             this.fetchBookData();
         },
-        postDeleteBook(b) {  
-            if ( !confirm("Are you sure you want to delete the book " + b.title + "?") ) {
+        postDeleteBook(b) { 
+            if ( !confirm("Are you sure you want to delete the book " + b.Title + "?") ) {
                 return;
             }  
             
